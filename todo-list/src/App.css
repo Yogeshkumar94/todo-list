@@ -1,0 +1,82 @@
+body{
+  background-image: url('../PC-Wallpaper-4k.jpg');
+  color: white;
+  /* text-align: center; */
+}
+body #addTodo{
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+
+#inputDiv{
+  text-align: center;
+}
+
+#upperButtons{
+  text-align: center;
+}
+
+
+button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.deleteButton{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.editButton{
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+input{
+  border-radius: 8px;
+  min-width: 20vw;
+  min-height: 15px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.headerElements{
+  text-align: left;
+  background-color: aliceblue;
+  color: black;
+  opacity: 0.3;
+}
+
+#taskInput{
+  margin: 10px;
+  font-size: 22px;
+}
+
+.headingTitle{
+  text-align: center;
+  padding: 3vh;
+}
+
+.centerAlign{
+  align-items : left;
+  justify-content: center;
+}
+
+.todoItem{
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 10px;
+  margin-left: 25vw;
+  min-width: 50vw;
+  max-width: 60vw;
+  color: aliceblue;
+}
